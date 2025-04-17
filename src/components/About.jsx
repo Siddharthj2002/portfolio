@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -45,13 +45,15 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm Siddharth Jain — a data-driven engineer with a passion for building intelligent systems and meaningful visualizations. With a background in Computer Science from UMass Amherst (B.S. + M.S.), I specialize in solving real-world problems using data analytics, machine learning, and scalable backend architectures.
+
+        I've designed and deployed cloud-based microservices, optimized large-scale databases, and built interactive dashboards to tell compelling data stories. My experience spans across the full stack — from developing REST APIs and implementing OAuth-secured flows, to working with Python NLP models for text augmentation and real-time LLM inference optimization.
+
+        
+
+        Outside of tech, I enjoy exploring how design, storytelling, and data intersect — and I'm always excited to collaborate on impactful, analytics-driven projects.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

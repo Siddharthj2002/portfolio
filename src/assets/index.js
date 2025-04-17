@@ -20,11 +20,32 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import aws from "./tech/aws.png";
+import jenkins from "./tech/jenkins.png";
+import keras from "./tech/keras.png";
+import kubernetes from "./tech/kubernetes.png";
+import matlab from "./tech/matlab.png";
+import mysql from "./tech/mysql.png";
+import postgres from "./tech/postgres.png";
+import r from "./tech/r.png";
+import pytorch from "./tech/pytorch.png";
+import spring from "./tech/spring.png";
+import sql from "./tech/sql.png";
+import tableau from "./tech/tableau.png";
+import tensorflow from "./tech/tensorflow.png";
+import jira from "./tech/jira.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import incrivel from "./company/incrivel.png";
+import asmadiya from "./company/asmadiya.png";
+import calendar from "./company/calendar.png";
+import flexgen from "./company/flexgen.png";
+import cics from "./company/cics.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,6 +73,22 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  java,
+  aws,
+  jenkins,
+  keras,
+  kubernetes,
+  matlab,
+  mysql,
+  postgres,
+  r,
+  pytorch,
+  spring,
+  sql,
+  tableau,
+  tensorflow,
+  jira,
   meta,
   shopify,
   starbucks,
@@ -59,4 +96,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  incrivel,
+  asmadiya,
+  flexgen,
+  calendar,
+  cics
 };

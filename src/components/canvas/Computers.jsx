@@ -6,14 +6,6 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
-  
-  useEffect(() => {
-    if (!computer || !computer.scene) {
-      console.error("GLTF model failed to load.");
-    } else {
-      console.log("GLTF Model Loaded:", computer.scene);
-    }
-  }, [computer]);
       
   return (
     <mesh>

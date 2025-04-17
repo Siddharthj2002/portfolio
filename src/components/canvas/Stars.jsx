@@ -63,7 +63,7 @@ const CustomGeometryParticles = (props) => {
         />
       </bufferGeometry>
       <pointsMaterial
-        size={0.003}
+        size={0.002}
         color="#5786F5"
         sizeAttenuation
         depthWrite={false}
